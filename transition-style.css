@@ -1,0 +1,42 @@
+body {
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  position: relative;
+}
+
+.trigger {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border: 20px solid #999;
+  background: #ddd;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.box {
+  display: inline-block;
+  background: pink;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  transition: -webkit-transform 2s cubic-bezier(0, 0.47, 0.32, 1.97);
+  transition: transform 2s cubic-bezier(0, 0.47, 0.32, 1.97);
+  transition: transform 2s cubic-bezier(0, 0.47, 0.32, 1.97), -webkit-transform 2s cubic-bezier(0, 0.47, 0.32, 1.97);
+  pointer-events: none;
+}
+
+.trigger.clicked .box {
+  -webkit-transform: translate(200px, 150px) rotate(20deg);
+          transform: translate(200px, 150px) rotate(20deg);
+}
