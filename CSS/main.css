@@ -4,12 +4,19 @@
 
 .header {
     width: 100%;
-    padding: 6em 0em;
-    background-color: lightsalmon;
-    color: white;
+    min-height: 600px;
+    padding: 3em 0em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0,0,0);
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 22px;
+}
+
+.header h3 {
+    color: white;
 }
 
 .navbar {
@@ -22,14 +29,15 @@
 }
 
 .sidenav {
-    width: 200px;
+    width: 75px;
+    min-height: 100px;
     position: fixed;
     z-index: 1;
-    top: 20px;
+    top: 10px;
     left: 10px;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0.5);
     overflow-x: hidden;
-    padding: 16px 0;
+    padding: auto 0;
 }
 
 .sidenav a {
@@ -71,10 +79,23 @@ a {
     bottom: 0;
     width: 100%;
     padding: 2em;
+    height: 200px;
     background-color: hsl(300, 34%, 25%);
     text-align: center;
+    font-family: 'Sunflower', sans-serif;;
+}
+
+.sm-icon {
+    height: 30px;
+    width: 30px;
 }
 
 .footer * {
     color: white;
+}
+
+.profile-photo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
