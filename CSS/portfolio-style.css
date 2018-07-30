@@ -1,5 +1,6 @@
 #container {
     margin: 5px 10%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .row {
@@ -13,11 +14,30 @@
 .box {
     height: 200px;
     width: 100%;
-    padding: 3.5em;
+    padding: 2em;
 }
 
 .img-box {
     height: 100%;
     width: 40%;
     margin: 0 2%;
+}
+
+.link {
+    text-align: center;
+    font-size: 24px;
+    color: burlywood;
+    padding: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 5px;
+    margin: auto auto;
+}
+
+.pro-title {
+    font-size: 32px;
+    color: aquamarine;
+
 }
