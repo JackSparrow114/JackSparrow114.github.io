@@ -1,0 +1,21 @@
+.header {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: chartreuse;
+}
+
+.content {
+    margin : 10% 10%;
+    text-align: center;
+    font-size: 32px;
+    border-width: 5px;
+    border-color: gray;
+    border-style: dashed;
+    font-family: 'Montserrat', sans-serif;
+    color: chartreuse; 
+}
+
+.footer {
+    bottom: 5px;
+    text-align: center;
+}
